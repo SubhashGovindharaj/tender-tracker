@@ -55,21 +55,21 @@ The application currently scrapes tender information from:
 - Central Public Procurement Portal (CPPP) - https://etenders.gov.in/eprocure/app
 - Government e-Marketplace (GeM) - https://gem.gov.in/ & https://bidplus.gem.gov.in/all-bids
 
-## Technologies Used
+Future Enhancements 🚀
+	•	Add login/signup functionality for companies.
+	•	Allow companies to edit/update their capability profiles dynamically.
+	•	Implement advanced matching using AI/ML models (e.g., BERT embeddings).
+	•	Add support for scraping more State-level procurement portals.
+	•	Enable SMS and Email real-time alerts through Twilio and Gmail integration.
+	•	Schedule scrapers to run automatically using cron jobs or cloud functions.
 
-- **Python 3.8+**: Core programming language
-- **Streamlit**: Web application framework
-- **BeautifulSoup4**: Web scraping
-- **PDFPlumber**: PDF text extraction
-- **Scikit-learn**: TF-IDF vectorization and similarity scoring
-- **Pandas**: Data manipulation and analysis
-
-## Future Enhancements
-
-- Integration with additional state procurement portals
-- Advanced NLP for better tender-profile matching
-- Mobile app notifications
-- Document generation for tender responses
+Tech Stack 🛠️
+	•	Backend Scraping: Python, Requests, BeautifulSoup
+	•	Data Processing: Pandas, PDFPlumber (for extracting PDFs)
+	•	Matching Algorithms: TF-IDF, Cosine Similarity
+	•	Frontend Dashboard: Streamlit
+	•	Notifications: SMTP (Gmail), Twilio SMS (optional)
+	•	Deployment (future): AWS / Azure / Railway.app (Streamlit sharing)
 
 ## License
 
