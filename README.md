@@ -71,6 +71,14 @@ Tech Stack 🛠️
 	•	Notifications: SMTP (Gmail), Twilio SMS (optional)
 	•	Deployment (future): AWS / Azure / Railway.app (Streamlit sharing)
 
+ <p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue.svg" alt="Python Badge">
+  <img src="https://img.shields.io/badge/Streamlit-%230E1117.svg?style=flat&logo=streamlit" alt="Streamlit Badge">
+  <img src="https://img.shields.io/badge/BeautifulSoup-DataScraping-green" alt="BeautifulSoup Badge">
+  <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="License Badge">
+</p>
+
+
 ## License
 
 MIT License
